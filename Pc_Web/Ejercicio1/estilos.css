@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #dddddd;
+    font-family: 'Lato', sans-serif;
+}
+.mueble{
+    margin-left: center;
+    text-align: center;
+}
+.menuCabecera{
+    margin-left: center;
+    background-color: rgb(255, 255, 255);
+    width: 293px ;
+    height: 250px;
+    padding-top: 20px;
+    margin: 10px 20px 10px 560px;
+    padding-inline-start: 10px;
+}
+.menuCabecera li {
+    font-size: 12px;
+    margin-right: 4rem;
+    margin-top: 10px;
+    
+    text-transform: uppercase;
+    color: black;
+    font-weight: lighter;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    
+}
+.menuCabecera li:nth-of-type(3){
+    font-size: 8px;
+    
+}
+.menuCabecera li:nth-of-type(5){
+    text-decoration: line-through;
+}
+.menuCabecera li:nth-of-type(6)::before{
+    content: "\2713\0020";
+    
+    margin-left: 50px;
+
+}
+.menuCabecera li:nth-of-type(7)::before{
+    content: "\2713\0020";
+    margin-left: 50px;
+}
+    
+button {
+    margin-left: 10px;
+    background-color: red;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 60px;
+    padding: 5px;
+    border: 0;
+    box-shadow: none;
+    color: white;
+
+}
+.a{
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #ADD500;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 60px;
+    padding: 5px;
+    border: 0;
+    box-shadow: none;
+    color: black; 
+}
